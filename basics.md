@@ -74,6 +74,22 @@ DELETE FROM [table name]
 WHERE [column name] = [value];
 ```
 
+## Joins
+
+```sqlite
+SELECT column_name(s)
+FROM first_table
+[Methond] JOIN second_table
+ON first_table.column_name=second_table.column_name;
+```
+Type|Description
+:---:|---
+INNER JOIN|Returns all rows when there is at least one match in BOTH tables
+LEFT JOIN|Returns all rows from the left table, and the matched rows from the right table
+RIGHT JOIN|Returns all rows from the right table, and the matched rows from the left table
+FULL JOIN|Returns all rows when there is a match in ONE of the tables
+
+
 ## Display Settings
 ```sqlite
 .header on       # output the name of each column
