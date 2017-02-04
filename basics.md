@@ -27,6 +27,8 @@ sqlite3 pets_database.db < 01_create_cats_table.sql
 ## Data Types
 
 - TEXT
+    - LENGTH(TEXT)
+
 - INTEGER
 - REAL
 - BLOB
