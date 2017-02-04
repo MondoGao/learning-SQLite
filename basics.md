@@ -52,6 +52,9 @@ WHERE [column name] = [some value]
 ORDER BY column_name ASC|DESC -- ASC is default
 LIMIT number_to_display;
 ```
+```sqlite
+SELECT last_insert_rowid() FROM table;
+```
 #### Aggregate Functions
 ```sqlite
 -- count the number of records that meet certain condition.
